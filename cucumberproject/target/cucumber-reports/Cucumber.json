@@ -1,0 +1,70 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Demo tours Login Functionality Checking with valid credentials",
+        "description": "",
+        "id": "demo-tours-login-functionality-checking;demo-tours-login-functionality-checking-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8992416570,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open the Browser",
+            "match": {
+              "location": "DemoLoginStepDef1.open_the_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33963147911,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "pass the appication url",
+            "match": {
+              "location": "DemoLoginStepDef1.pass_the_appication_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69994570753,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter valid userid and password",
+            "match": {
+              "location": "DemoLoginStepDef1.enter_valid_userid_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117512208,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Signout options should by visible on second page.",
+            "match": {
+              "location": "DemoLoginStepDef1.signout_options_should_by_visible_on_second_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Demo tours Login Functionality Checking",
+    "description": "",
+    "id": "demo-tours-login-functionality-checking",
+    "keyword": "Feature",
+    "uri": "C:/Users/Training_H1B.06.15/eclipse-workspace/cucumberproject/src/test/java/featurefolder1/demotours.feature"
+  }
+]
